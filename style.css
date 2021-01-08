@@ -63,3 +63,39 @@ td, th{
     padding: 10px;
     
 }
+/* nav started */
+nav{
+    background-color: #ddd;
+    height: 50px;
+    
+}
+nav ul li{
+    list-style: none;
+    line-height: 30px;
+    padding: 10px;
+    position: relative;
+}
+nav > ul > li{
+    float: left;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li:hover{
+    background-color: dimgray;
+}
+nav ul li:hover a{
+    color: white;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    padding: 10px;
+    color: black;
+}
+nav > ul > li:hover ul{
+    display: block;
+}
